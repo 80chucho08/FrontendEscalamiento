@@ -1,0 +1,26 @@
+﻿* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background: #f1f5f9;
+  color: #172554;
+  font-family: system-ui, sans-serif;
+}
+
+.saludo {
+  padding: 2rem 3rem;
+  text-align: center;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgb(15 23 42 / 10%);
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2rem, 8vw, 4rem);
+}
