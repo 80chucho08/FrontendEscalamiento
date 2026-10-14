@@ -1,4 +1,4 @@
-﻿const ENDPOINT = "http://18.213.233.132:8000/contactos";
+﻿const ENDPOINT = "/api/contactos";
 const cuerpoTabla = document.querySelector("#contactos");
 const estado = document.querySelector("#estado");
 const botonActualizar = document.querySelector("#actualizar");

@@ -1,0 +1,9 @@
+
+{
+  "rewrites": [
+    {
+      "source": "/api/contactos",
+      "destination": "http://18.213.233.132:8000/contactos"
+    }
+  ]
+}
