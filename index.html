@@ -3,14 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hola mundo</title>
+  <title>Contactos</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="saludo">
-    <h1 id="mensaje">Hola mundo</h1>
-    <p>Navarro Carbajal Jesus Alfonso.</p>
-    <h3>Escalamiento de Redes</h3>
+  <main class="contenedor">
+    <header class="encabezado">
+      <div>
+        <p class="sobrelinea">Directorio</p>
+        <h1>Contactos</h1>
+        <p class="descripcion">Registros obtenidos desde la API.</p>
+      </div>
+      <button id="actualizar" type="button">Actualizar</button>
+    </header>
+
+    <p id="estado" class="estado" role="status">Cargando contactos…</p>
+    <div class="tabla-contenedor">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col">Teléfono</th>
+            <th scope="col">Correo</th>
+            <th scope="col">Ciudad</th>
+            <th scope="col">Categoría</th>
+          </tr>
+        </thead>
+        <tbody id="contactos"></tbody>
+      </table>
+    </div>
   </main>
   <script src="script.js"></script>
 </body>
